@@ -64,6 +64,21 @@ class Projects extends Component {
           </p>
       />
 
+      <ProjectRow
+        url="https://github.com/ZhenjiaChen/North-Carolina-FTP-Data"
+        url_title="North Carolina Absentee Ballot"
+        img_alt="Absentee Ballot Graph"
+        img_path="images/NCFTP.png"
+        img_title="NC Absentee Ballot"
+        project_title="North Carolina Absentee Ballot Visualization"
+        project_desc=
+          <p>
+            Data visualization created from <a href="https://dl.ncsbe.gov/index.html?prefix=ENRS/2018_06_26/" target="_blank" title="NCSBE">NCSBE</a>.
+            It would seem that certain districts have unusually low percentages
+            for absentee ballots accepted.
+          </p>
+      />
+
     </section>
     );
   }
