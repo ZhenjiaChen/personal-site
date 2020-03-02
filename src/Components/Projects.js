@@ -35,6 +35,21 @@ class Projects extends Component {
       </div>
 
       <ProjectRow
+        url="https://color-inference-app.web.app/"
+        url_title="Color Inference"
+        img_alt="Color Inference"
+        img_path="images/colors.png"
+        img_title="Color Inference"
+        project_title="Bayesian Color Name Inference"
+        project_desc=
+          <p>
+            Bayesian model for inferring color names from RGB values.  Outperforms
+            nearest neighbor approaches in generating human-recognizable names.  This
+            was a collaborative final project for 9.660.
+          </p>
+      />
+
+      <ProjectRow
         url="https://electionlab.mit.edu/"
         url_title="MEDSL"
         img_alt="MEDSL"
